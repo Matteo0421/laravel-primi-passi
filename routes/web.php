@@ -24,3 +24,7 @@ Route ::get('/', function(){
 Route ::get('/about', function(){
     return view('about');
 })->name('about');
+
+Route::get('/dropbox', function () {
+    return view('dropbox');
+})->name('dropbox');
